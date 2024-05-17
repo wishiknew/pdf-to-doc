@@ -21,3 +21,7 @@ build/
 dist/
 *egg-info/
 pdf2docx*.rst
+
+
+# the python virtual env
+venv

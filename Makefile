@@ -14,8 +14,8 @@ CLEANDIRS	:=.pytest_cache pdf2docx.egg-info dist
 .PHONY: src doc test clean
 
 src:
-	@python setup.py sdist --formats=gztar,zip && \
-	python setup.py bdist_wheel
+	@python3 setup.py sdist --formats=gztar,zip && \
+	python3 setup.py bdist_wheel
 
 doc:
 	@if [ -f "$(DOCSRC)/Makefile" ] ; then \
